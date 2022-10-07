@@ -1,2 +1,24 @@
-@import './common';
-@import './example';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+
+// FOR COMPONENTS
+
+// FOR MODAL WINDOWS
+@import './components/buy-now-modal';
+@import './components/products-modal';
+@import './components/how-made-modal';
+@import './components/locations-modal';
+@import './components/franchise-modal';
+
+@import './layout/header-hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/customer-reviews';
+@import './layout/contacts';
+@import './layout/footer';
