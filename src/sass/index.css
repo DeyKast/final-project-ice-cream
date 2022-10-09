@@ -1,0 +1,82 @@
+:root {
+  --yellow-default-color: #f8d24e;
+  --green-accent-color: #0a8817;
+  --grey-disabled-color: #ababab;
+  --white-color: #fff;
+  --black-color: #000;
+  --main-green-color: #84a178;
+  --light-green-color: #aec6a5;
+  --darkened-yellow-color: #efd478;
+  --brown-color: #d6936d;
+  --light-grey-color: #d9d9d9;
+  --dark-grey-color: #7a7a7a;
+  --yellow-default: #f8d24e;
+  --transparent-yellow: rgba(248, 210, 78, 0.1);
+  --main-text-color: #fcfcfc;
+  --black-text-color: #131313;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-seymour-one: "Seymour One", sans-serif;
+  --animation: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  color: var(--main-text-color);
+  letter-spacing: 0.04em;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 480px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 16px;
+  }
+}
+.footer__page-topic {
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+.footer__page-rubric {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}/*# sourceMappingURL=index.css.map */
