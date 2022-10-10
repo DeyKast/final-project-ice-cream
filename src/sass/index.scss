@@ -7,6 +7,9 @@
 
 // FOR COMPONENTS
 @import './components/button';
+@import './components/background';
+@import './components/slick';
+@import './components/button-up';
 
 // FOR MODAL WINDOWS
 @import './components/buy-now-modal';
@@ -20,6 +23,7 @@
 @import './layout/about';
 @import './layout/advantages';
 @import './layout/gallery';
+
 @import './layout/customer-reviews';
 @import './layout/contacts';
 @import './layout/footer';
