@@ -99,9 +99,9 @@
         minlength="2"> 
     </span>
   </lable> -->
-
-        <lable class="">
-          <textarea name="" class="" placeholder="name"></textarea>
+       <div class="modal-fields">
+ <lable class="">
+          <textarea name="" class="name-field" placeholder="Name"></textarea>
         </lable>
 
         <!-- <lable class="">
@@ -113,14 +113,17 @@
       </lable> -->
 
         <lable class="">
-          <textarea type="tel" name="user-phone" class="" placeholder="phone"></textarea>
+          <textarea type="tel" name="user-phone" class="phone-field" placeholder="Phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"></textarea>
         </lable>
 
         <lable class="">
-          <textarea name="" class="" placeholder="comment"></textarea>
+          <textarea name="" class="comment-field" placeholder="Comment"></textarea>
         </lable>
 
-        <button type="submit" class="modal-form-submit-button">submit</button>
-      </form>
+        <button type="submit" class="modal-form-submit-button">Submit</button>
+       </div>
+       
+      <!-- </form> -->
     </div>
   </div>
